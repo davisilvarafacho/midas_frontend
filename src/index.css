@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* fonts config */
+@font-face {
+  font-family: 'Nighty';
+  src: url('/fonts/nighty.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Opens Sans';
+  src: url('/fonts/open_sans.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nevis';
+  src: url('/fonts/nevis.ttf') format('truetype');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* font-family: 'Open Sans'; */
+}
+
+body {
+  /* font-family: 'Nevis'; */
+}
+
+@layer components {
+}
